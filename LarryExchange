@@ -1,0 +1,147 @@
+*HTML Code:*
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Larry's Logins</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Logins</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<h1>Access the world with Larry's Logins</h1>
+			<p>Get instant access to your favorite platforms with our secure and reliable logins</p>
+			<button>Buy Now</button>
+		</section>
+		<section class="logins">
+			<h2>Login Categories</h2>
+			<ul>
+				<li><a href="#">Instagram Logins</a></li>
+				<li><a href="#">Facebook Logins</a></li>
+				<li><a href="#">Talkatone Logins</a></li>
+				<li><a href="#">Textplus Logins</a></li>
+				<li><a href="#">VPN Logins</a></li>
+			</ul>
+		</section>
+		<section class="featured-logins">
+			<h2>Featured Logins</h2>
+			<ul>
+				<li><img src="login1.jpg" alt="Login 1"> <p>Login 1 Description</p> <button>Buy Now</button></li>
+				<li><img src="login2.jpg" alt="Login 2"> <p>Login 2 Description</p> <button>Buy Now</button></li>
+				<li><img src="login3.jpg" alt="Login 3"> <p>Login 3 Description</p> <button>Buy Now</button></li>
+			</ul>
+		</section>
+		<section class="payment-method">
+			<h2>Payment Method</h2>
+			<p>Bank Transfer:</p>
+			<p>Account Number: 8160345640</p>
+			<p>Account Name: Opay USMAN AYOKUNLE OSENI</p>
+			<p>Bank: Opay</p>
+		</section>
+		<section class="customer-support">
+			<h2>Customer Support</h2>
+			<p>WhatsApp Number: +234 9018005851</p>
+			<p>Support Email: usmanayokunle@gmail.com</p>
+			<p>Support Hours: Monday to Sunday, 9am to 11pm</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Larry's Logins</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
+```
+*CSS Code (in style.css file):*
+```
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f1c40f;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+section {
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #f1c40f;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ffc107;
+}
+
+.featured-logins ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.featured-logins li {
+	margin-bottom: 20px;
+}
+
+.featured-logins img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.payment-method, .customer-support {
+	background-color: #f7f7f7
+```
